@@ -1,0 +1,144 @@
+@media(min-width: 1400px){
+    .container{
+        max-width: 1140px;
+}
+}
+
+.overflow{
+    overflow-x: hidden;
+}
+
+/*Text Color*/
+.text-dark-custom{
+    color: #3a3a47!important;
+}
+
+.text-grey-custom{
+    color: #5c5c5c!important;
+}
+
+.text-light-grey-custom{
+    color: #818198!important;
+}
+
+.text-dark-blue-custom{
+    color: #383861!important;
+}
+
+.text-blue-custom{
+    color: #3498db!important;
+}
+
+.text-green-custom{
+    color: #21bf73!important;
+}
+
+/*Background Color*/
+.bg-primary-custom{
+    background-color: #f0f5f9;
+}
+
+
+/*Navbar Menu*/
+.navbar-brand{
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.navbar-light .navbar-nav nav-link.active,
+.navbar-light .navbar-nav .show> .nav .nav-active,
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+/*Home*/
+.home{
+    padding: 150px 0 100px 0;
+}
+
+.home-text{
+    padding: 60px 5px 0 5px;
+}
+
+.btn-home{
+    width: 145px;
+    height: 42px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+    .home{
+        padding: 50px 0;
+    }
+}
+/*About*/
+.about__card-1{
+    background-color: #FFF2E5;
+}
+
+.about__card-2{
+    background-color: #F8F9FA;
+}
+
+.about__card-3{
+    background-color: #F0F5F9;
+}
+
+.about__card-img{
+    width: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .about__card-img{
+        margin: auto;
+    }
+}
+
+/*Features*/
+.feature__container{
+    background-color: #f0f5f9;
+}
+
+/*Results*/
+.result-img{
+    width: 80px;
+}
+
+/*Reviews*/
+.reviews__container{
+    background-color: #f0f5f9;
+    padding: 100px 50px;
+}
+
+/*Pricing*/
+.pricing__card{
+    background-color: #f0f5f9;
+}
+
+/*FAQ*/
+.faq__container{ 
+    background-color: #f0f5f9;
+    padding: 100px 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-ul{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .smallTxt{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 380px) {
+.navbar-light .navbar-nav nav-link.active,
+.navbar-light .navbar-nav .show> .nav .nav-active,
+.navbar-light .navbar-nav .nav-link{
+    padding: 10px 10px;
+}
+}
